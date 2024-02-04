@@ -331,15 +331,14 @@ ol {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
-.li-list:hover,
-.li-list:focus
+.li-list:hover
 .cover-text {
     transform: translateY(0%);
 }
 
 .cover-wrap {
     position: relative;
- 
+    overflow: hidden;
 }
 
 .cover-text {
