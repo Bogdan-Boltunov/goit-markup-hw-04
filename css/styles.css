@@ -365,7 +365,7 @@ ol {
 
 .basement {
     background: #2E2F42;
-    padding: 100px 0 100px;
+    padding: 100px 0;
 }
 
 .basement-logo-web {
@@ -399,4 +399,45 @@ ol {
     line-height: 1.50;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-global {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.footer-icons {
+    width: 208px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.food-icon-list-item {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+.footer-icons-text {
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.food-icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+}
+
+.food-icon-list-item {
+    width: 40px;
+    height: 40px;
 }
