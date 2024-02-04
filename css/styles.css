@@ -235,6 +235,7 @@ ol {
 
 .li-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
+    position: relative;
 }
 
 .icon-container {
@@ -290,6 +291,7 @@ ol {
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .icon-list {
@@ -323,6 +325,20 @@ ol {
 .cover-wrap {
     position: relative;
     overflow: hidden;
+}
+
+.cover-container {
+    position: absolute;
+    top: 0;
+
+
+}
+
+.cover-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
 }
 
 .portfolio-text {
